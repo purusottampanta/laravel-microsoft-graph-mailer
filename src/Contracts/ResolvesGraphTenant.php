@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GraphMailer\Contracts;
+namespace Puru\GraphMailer\Contracts;
 
 interface ResolvesGraphTenant
 {
