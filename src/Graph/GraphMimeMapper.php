@@ -24,7 +24,7 @@ class GraphMimeMapper
             'bccRecipients' => $this->addresses($email->getBcc()),
             'replyTo'       => $this->addresses($email->getReplyTo()),
             'attachments'   => $this->attachments($email),
-            'internetMessageHeaders' => $this->headers($email),
+            // 'internetMessageHeaders' => $this->headers($email),
         ];
     }
 
