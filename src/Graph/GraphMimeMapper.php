@@ -36,7 +36,7 @@ class GraphMimeMapper
         // If plain TextPart
         if ($part instanceof TextPart) {
             return [
-                'contentType' => strtoupper($part->getMediaSubtype()), // HTML or PLAIN
+                'contentType' => strtoupper($part->getMediaSubtype()) === 'PLAIN' ? 'Text' : 'HTML', // Handle both plain and html
                 'content' => $part->bodyToString(),
             ];
         }
@@ -112,7 +112,6 @@ class GraphMimeMapper
             ->values()
             ->all();
     }
-
 
 
     protected function headers(Email $email): array

@@ -2,6 +2,7 @@
 
 namespace Puru\GraphMailer\Graph;
 
+use Illuminate\Support\Facades\Http;
 use Puru\GraphMailer\Transport\GraphClientInterface;
 use Symfony\Component\Mime\Email;
 use Symfony\Component\Mailer\Envelope;
