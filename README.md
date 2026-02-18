@@ -1,6 +1,6 @@
 ## Installation
 
-composer require Puru/laravel-microsoft-graph-mailer
+composer require purusottampanta/laravel-microsoft-graph-mailer
 
 ## Configuration
 
