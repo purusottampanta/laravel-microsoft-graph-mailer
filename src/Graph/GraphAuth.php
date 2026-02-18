@@ -2,6 +2,8 @@
 
 namespace Puru\GraphMailer\Graph;
 
+use Illuminate\Support\Facades\Http;
+
 class GraphAuth
 {
     public function token(array $tenant): string
