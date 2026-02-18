@@ -6,12 +6,12 @@ composer require purusottampanta/laravel-microsoft-graph-mailer
 php artisan vendor:publish --tag=microsoft-graph-config
 
 ## Configuration
-# Add/edit following in .env file
-MAIL_MAILER=microsoft-graph
-MS_TENANT_ID=xxxxxxxxxxx
-MS_CLIENT_ID=xxxxxxxxxxx
-MS_CLIENT_SECRET=xxxxxxxxxxx
-MS_FROM_ADDRESS=xxxxxxxxxxxxx
+### Add/edit following in .env file
+- MAIL_MAILER=microsoft-graph
+- MS_TENANT_ID=xxxxxxxxxxx
+- MS_CLIENT_ID=xxxxxxxxxxx
+- MS_CLIENT_SECRET=xxxxxxxxxxx
+- MS_FROM_ADDRESS=xxxxxxxxxxxxx
 
 ## Usage
 Send Email using Microsoft graph The Laravel Way
