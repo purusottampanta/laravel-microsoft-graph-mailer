@@ -2,6 +2,9 @@
 
 composer require purusottampanta/laravel-microsoft-graph-mailer
 
+## Publish config
+php artisan vendor:publish --tag=microsoft-graph-config
+
 ## Configuration
 
 MAIL_MAILER=graph
